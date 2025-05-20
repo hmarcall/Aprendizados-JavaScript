@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primos</title>
+</head>
+<body>
+    <h1>Primos</h1>
+    <p>Informe um número: <input type="number" name="txtn1" id="txtn1"></p>
+    <p><input type="button" value="Verificar" onclick="verificar()"></p>
+    <p id="resultado"></p>
+    
+        <script>
+            function verificar() {
+                var n1 = parseInt (window.document.getElementById('txtn1').value)
+                var res = window.document.getElementById('resultado')
+                for (let i=2;i<n1;i++){
+                    if (n1%i === 0) {
+                        res.innerHTML = ('O número não é primo!')
+                        break
+                    }else {
+                res.innerHTML = ('O número é primo!')
+                }
+            }
+        }
+        </script>
+</body>
+</html>
