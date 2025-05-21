@@ -22,7 +22,7 @@ Guardar os exercícios e anotações feitos durante o estudo, para revisar e aco
 
 ---
 
-## 🗂 Estrutura dos arquivos
+## Estrutura dos arquivos
 
 Os arquivos estão organizados por tema, com exemplos simples e comentários explicando o código.
 
